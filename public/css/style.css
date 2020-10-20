@@ -1,0 +1,29 @@
+body {
+    /* background : green; */
+    color : black;
+    margin: 0 auto;
+    max-width: 650px;
+    min-height: 100vh;
+    padding: 0 16px;
+    display: flexbox;
+    flex-direction: column;
+}
+.min-content{
+    flex-grow: 1;
+}
+footer {
+    color:  #888888;
+    border-top: 1px solid #eeeeee;  
+    padding: 16px 0;  
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}

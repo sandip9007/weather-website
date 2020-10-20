@@ -7,7 +7,7 @@ const foreCast = require('./utils/forecast.js');
 
 const geoCode = require('./utils/geocode.js');
 
-// console.log(__dirname+"\\index.html");
+console.log(__dirname+"\\index.html");
 // console.log(__filename);
 
 const pathDir = path.join(__dirname, '../public')

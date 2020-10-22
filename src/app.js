@@ -3,6 +3,7 @@ const path = require('path');
 const hbs = require('hbs');
 const app = express();
 
+const port = process.env.port || 5000
 const foreCast = require('./utils/forecast.js');
 
 const geoCode = require('./utils/geocode.js');
@@ -126,6 +127,6 @@ app.get('/*',(req, res)=>{
 		title : "Error Page"
 	})
 })
-app.listen(5000, ()=>{
+app.listen(port, ()=>{
 	console.log('Server is up on port 4000')
 })

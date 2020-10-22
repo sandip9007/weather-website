@@ -12,7 +12,7 @@
 		console.log(searchLocation.value);
 		// searchLocation.value = "";
 
-		fetch('http://localhost:5000/weather?address=' + searchLocation.value + '').then((response)=>{
+		fetch('/weather?address=' + searchLocation.value + '').then((response)=>{
 		// console.log(JSON.parse(response))
 		response.json().then((data)=>{
 			if(data.error){
